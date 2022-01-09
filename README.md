@@ -43,13 +43,13 @@ Binary installers for the latest released version are available at the Python Pa
 ---
 # Imports
 
-import pandas as pd
-from pathlib import Path
-import tensorflow as tf
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.models import Sequential
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler,OneHotEncoder
+import pandas as pd  
+from pathlib import Path  
+import tensorflow as tf  
+from tensorflow.keras.layers import Dense  
+from tensorflow.keras.models import Sequential  
+from sklearn.model_selection import train_test_split  
+from sklearn.preprocessing import StandardScaler,OneHotEncoder  
 import hvplot.pandas
 
 ## Usage
